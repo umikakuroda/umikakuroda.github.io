@@ -43,7 +43,7 @@ img {
 
 header {
 	display: grid;
-	grid-template-columns: 50% auto;
+	grid-template-columns: 40% auto;
 	background: #fafafa;
 	padding: 1rem 1rem;
 	border-bottom: 8px double #6B0F39;
