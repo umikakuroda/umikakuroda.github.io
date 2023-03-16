@@ -37,8 +37,8 @@ main {
 }
 
 img {
-    width: 100%; /*Please leave this line.*/
-    display: block;
+    	width: 100%; /*Please leave this line.*/
+    	display: block;
 	margin-bottom: 0.75em;
 }
 
