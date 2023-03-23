@@ -13,7 +13,7 @@ body {
 div.home-container { 
 	/* background: url(images/pink-background.jpg) center center fixed; */
 	background: url(images/pink-background-3.jpg); 
-	/* background-color: #f8d8e5; */
+	background-color: #f8d8e5; 
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
