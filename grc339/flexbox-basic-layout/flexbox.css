@@ -1,0 +1,87 @@
+/*CSS DOCUMENT*/
+
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	}
+
+section {
+	background: rgb(238 238 238);
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+figure {
+	margin: 0 0 .5rem 0;
+}
+
+img {
+	width: 100%;
+}
+
+div.container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	padding: 0 1em;
+	min-width: 25em;
+}
+
+header {
+	flex: 1 0 100%;
+}
+
+article {
+	flex: 2 0 20em;
+	padding-bottom: 1.2rem;
+	margin-right: 1em;
+	flex-wrap: wrap;
+}
+
+aside {
+	flex: 1 0 10em;
+}
+
+footer {
+	border-top: 1px solid rgb(165, 165, 165);
+	flex: 1 0 100%;
+	padding-top: .5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	margin: 1.2rem 0 0 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+/* change style of links */
+a {
+	color: #0e0e0e; 
+	text-decoration: none;
+}
+
+h2 {
+	padding-top: 1.5rem;
+}
+
+ol {
+	padding-left: 0;
+}
+
+header {
+	margin-top: 1.5rem;
+}
+
+/* for wider screen */
+@media screen and (min-width: 60em) {
+	div.container {
+		max-width: 70em;
+		padding: 0 5rem;
+	}
+}
