@@ -18,6 +18,11 @@ div.container {
 		margin: 0 auto; 
 }
 
+section.order h3 {
+	margin-top: 2em;
+	margin-bottom: 0;
+}
+
 /* UK- make header span full width of flex container */
 header {
 	flex: 1 0 100%;
@@ -41,11 +46,6 @@ section.order li,
 section.method li {
 	/* flex: 0 0 50%; */
 	flex: 0 0 19em;
-}
-
-section.order h3 {
-	margin-top: 2em;
-	margin-bottom: 0;
 }
 
 /* UK- */
