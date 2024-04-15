@@ -43,6 +43,10 @@ section.method li {
 	flex: 0 0 19em;
 }
 
+section.order h3 {
+	margin-bottom: 0;
+}
+
 /* UK- */
 section.personal-info ul li {
 	display: flex;
