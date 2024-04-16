@@ -10,12 +10,12 @@ body {
 	
 div.container {
         max-width: 40em;
-        margin: 1em;
+        /* margin: 1em; */
         padding: 1em;
-		/* UK- */
-		display: flex;
-		flex-direction: column;
-		margin: 0 auto; 
+	/* UK- */
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto; 
 }
 
 section.order h3 {
