@@ -9,8 +9,12 @@ img {
 
 
 h1 {
-    width: 6rem;;
+    width: 13rem;;
 }
+
+body {
+    background-color: rgb(246, 244, 238);
+} 
 
 div.container, div.home-container {
     max-width: 40em;
@@ -24,15 +28,17 @@ header {
 /* remove underline from links */
 a {
     text-decoration: none;
+    padding-left: 1rem;
 }
 
 ul li {
     list-style-type: none;
+    text-transform: uppercase;
 }
 
 nav {
     padding: 1rem 0;
-    font-family: sans-serif;
+    font-family: quasimoda;
 }
 
 .mainstory h2{
@@ -46,14 +52,25 @@ nav {
 }
 
 .tertiary h2 {
-    border-top: 1px solid rgb(93 119 150);
     padding-top: .7em;
     font-size: 1.2em;
+    color: #87bee8;
 }
 
-h2, li a {
-    color: rgb(93 119 150);
+h3, li a {
+    color: #f58020;
+}
+
+a:hover {
+    color: #87bee8;
+}
+
+h2, h3, li a {
     font-weight: 700;
+}
+
+.secondary h2, .mainstory h2 {
+    color: #f58020;
 }
 
 li {
@@ -62,28 +79,34 @@ li {
 
 p {
     color: rgb(10, 10, 10);
-    font-family: sans-serif;
+    font-family: komet;
     padding-bottom: 1.8rem;
     line-height: 1.2em;
+}
+
+.secondary {
+    height: fit-content;
 }
 
 h2, p, figcaption {
     margin: 0 .5rem;
 }
 
-h1, h2 {
-    font-family: serif;
+h3 {
+    font-size: 1.2em;
+}
+
+h1, h2, h3 {
+    font-family: quasimoda;
 }
 
 footer {
-    background-color: rgb(93 119 150);
     width: 100%;
     padding: .5em;
     box-sizing: border-box;
 }
 
 footer p {
-    color: #fafafa;
     padding: auto;
     padding-top: .75rem;
 }
@@ -93,23 +116,34 @@ footer p {
 
 figcaption {
     font-style: italic;
-    font-family: sans-serif;
+    font-family: komet;
     color: rgb(113, 113, 113);
     padding: .5rem 0 1.2rem;
 }
 
 aside {
-    background-color: rgb(204, 201, 257);
     padding: 1rem .5rem;
+    background-color: #31302c;
+    height: fit-content;
+} 
+
+aside p {
+    color: rgb(246, 244, 238);
 }
 
 aside h2 {
     padding-top: .3rem;
+    color: #87bee8;
+}
+
+aside h2:hover {
+    color: #f58020;
 }
 
 article h2 {
     font-size: 2.5em;
     padding: 1.5rem 0 .5rem 0;
+    color: #f58020;
 }
 
 
@@ -144,6 +178,11 @@ article h2 {
     main p {
         margin: 0 0 1rem 0;
     }
+    
+    a {
+        padding-left: 0;
+    }
+
 }
 
 @media screen and (min-width: 60em) {
@@ -167,6 +206,10 @@ article h2 {
         grid-gap: 1em;
     }
 
+    footer {
+        border-top: 2px solid #87bee8;
+    }
+
     main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -174,9 +217,8 @@ article h2 {
     }
 
     div.home-container aside {
-        background: none;
-        padding: 0;
-        margin-top: 0;
+        padding: 1em 1.2em 1.2em;
+        height: fit-content;
     }
 
     section.mainstory {
