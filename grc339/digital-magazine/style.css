@@ -32,6 +32,10 @@ h2, p, figcaption, h4 {
     margin: 0 .5rem;
 }
 
+h2 {
+    padding-bottom: .3em;
+}
+
 h3, li a,.secondary h2, .mainstory h2, .gallery h2, aside.home h2, h4, .newsletter h2 {
     color: #f58020;
 }
