@@ -436,5 +436,10 @@ a.button:hover {
     section.secondary a p {
         flex: 0 0 4em;
     }
+
+    .gallery {
+        margin: 0;
+    }
+    
 }
 
