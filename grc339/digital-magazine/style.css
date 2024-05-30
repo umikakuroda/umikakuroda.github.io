@@ -260,6 +260,9 @@ nav.thumbnails {
     width: 25em; 
     margin-bottom: 1.25em; 
     border-bottom: 1px solid rgb(51,29,12);
+    border-top: none;
+    border-right: none;
+    border-left: none;
 }
 
 form {
