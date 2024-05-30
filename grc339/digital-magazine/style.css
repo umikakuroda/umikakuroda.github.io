@@ -1,448 +1,353 @@
 /*CSS document*/
+html {
+    background-color: #121610;
+}
+body {
+    font-family: "indivisible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background-color: #EEEDEB;
+    color: #121610;
+    padding: 2em;
+    margin: 2em;
+}
 
-html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+div.container {
+    max-width: 40rem;
+    margin: auto;
+    display: grid;
+}
+
+figure {
+    margin: 0;
+}
 
 img {
     width: 100%;
-    display: block;
 }
 
-h1, h2, h3, h4 {
-    font-family: quasimoda;
+ul {
+    list-style-type: none;
+    padding: 0em;
 }
 
-h1 {
-    width: 13rem;;
-}
-
-h2 {
-    line-height: 1em;
-}
-
-h3 {
-    font-size: 1.2em;
-    margin: 0 .5rem;
-}
-
-h2, h3, li a {
-    font-weight: 700;
-}
-
-h2, p, figcaption, h4 {
-    margin: 0 .5rem;
-}
-
-h2 {
-    padding-bottom: .3em;
-}
-
-h3, li a,.secondary h2, .mainstory h2, .gallery h2, aside.home h2, h4, .newsletter h2 {
-    color: #f58020;
-}
-
-li {
-    line-height: 1.4em;
-}
-
-label {
-    font-family: komet;
-}
-
-p {
-    color: rgb(10, 10, 10);
-    font-family: komet;
-    padding-bottom: 1.8rem;
-    line-height: 1.2em;
-    font-size: 1.1em;
-}
-
-figure.chairs {
-    margin: 1.2em 0;
-}
-
-body {
-    background-color: rgb(246, 244, 238);
-} 
-
-div.container, div.home-container {
-    max-width: 40em;
+h1, h2, h3 {
+    font-family: "input-serif-condensed", serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.3em;
+    text-transform: uppercase;
     margin: auto;
 }
 
-header {
-    padding: 1rem .5rem 0;
-}
-
-/* remove underline from links */
 a {
+    color: #121610;
     text-decoration: none;
-    padding-left: 1rem;
 }
 
-ul li {
-    list-style-type: none;
-    text-transform: uppercase;
-}
-
-nav.topbar {
-    padding: 1rem 0;
-    font-family: quasimoda;
-}
-
-.mainstory h2, .gallery h2{
-    padding-top: .5rem;
-    font-size: 2.5em;
-}
-
-.secondary h2 {
-    padding-top: .5rem;
-    font-size: 1.8em;
-}
-
-.tertiary h2 {
-    padding-top: .7em;
-    font-size: 1.4em;
-    color: #87bee8;
-}
-
-a:hover {
-    color: #87bee8;
-}
-
-.secondary {
-    height: fit-content;
-}
-
-footer {
+h1 {
     width: 100%;
-    /* padding: .5em; */
-    box-sizing: border-box;
 }
 
-footer p {
-    padding: auto;
-    padding-top: .75rem;
-    margin-left: 1rem;
+h2 {
+    font-size: 1.5rem;
+    color: #FF3406;
+    margin: 1em 0em;
 }
 
-/* consistent styles for asides */
-aside {
-    height: fit-content;
-} 
-
-/* different style for homepage aside */
-aside.home {
-    background-color: none;
-} 
-
-aside.home p {
-    color: rgb(10, 10, 10);
+h3 {
+    color: #3F6E87;
+    font-size: 1.2rem;
+    margin: 0.5em 0em;
+ 
 }
 
-aside.home h2 {
-    border-top: 1.5px solid #87bee8;
+h3:hover {
+    color: #314956;
 }
 
-/* different style for in-story asides */
-aside.story {
-    padding: 1rem .5rem;
-    background-color: #31302c;
-} 
-
-aside.story p {
-    color: rgb(246, 244, 238);
+p {
+    margin: 0.5em 0em 1em;
 }
 
-aside.story h2 {
-    color: #87bee8;
-    font-size: 1.2em;
-    line-height: 1.2em;
-    margin-top: .5em;
+.italic {
+    font-style: italic;
 }
 
-aside.story h2:hover {
-    color: #f58020;
+section {
+    margin: 1em 0em;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: #121610; 
+    padding: 1em 0em 0em;
 }
-aside.story h2 {
-    padding-top: .3rem;
-}
-
-/* styles individual stories */
 
 figcaption {
     font-style: italic;
-    font-family: komet;
-    color: rgb(113, 113, 113);
-    padding: .5rem 0 1.2rem;
+    font-size: 0.8rem;
+    padding: 0.5em 0em;
 }
 
-article h2 {
-    font-size: 2.5em;
-    padding: .6rem 0 .5rem 0;
-    color: #f58020;
+footer {
+    font-size: 0.7rem;
 }
 
-/* photo gallery code */
-.gallery img {
-    width: 100%;
+/* navigation styling */
+nav {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 2em;
 }
 
-.gallery {
-    margin: 0 .5em 5em;
+nav a:hover {
+    color: #FF3406;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: #FF3406;
 }
 
-.gallery main {
-    margin-top: 3em;
+nav ul li{
+    display: inline;
+    margin: auto;
+    font-family: "input-serif-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+/* responsive grid*/
+@media screen and (min-width:60em){
+    div.container {
+        max-width: 70rem;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 0 2em;
+    }
+    header {
+        grid-column: 1/3;
+    }
+    
+    section {
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+    
+    main {
+        grid-column: 1/2fr;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 1em;
+    }
+    
+    section.mainstory {
+        grid-column: 2/4;
+        grid-row: 1/3;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.mainstory a {
+        flex: 1 0 10em;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.mainstory a figure{
+        flex: 1 0 10em;
+    }
+    
+    section.mainstory a h3 {
+        flex: 0 0 auto;
+        margin: auto;
+    }
+    
+    section.mainstory a figure img {
+        height: 95%;
+        object-fit: cover;
+    }
+    
+    main.newsletter {
+        max-width: 65rem;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5em;
+        margin: auto;
+        
+    }
+
+} 
+
+/* photo gallery */
+div.photogallery {
+    margin: auto;
+    max-width: 65rem;
+}
+
+main.photogallery {
+    margin: auto;
+    max-width: 65rem;
     position: relative;
-    overflow: hidden; 
-    padding-bottom: calc(75% + 5.5em);
+    overflow: hidden;
+    padding-bottom: calc(100% + 4em);
 }
 
-.gallery figure{
-    margin: 0;
-    width: calc(100%-2em);
+figure.photogallery {
+    margin: auto;
+    width: 100%;
     position: absolute;
     opacity: 0;
     transition: opacity 0.5s;
 }
 
-.gallery figcaption {
+figcaption.photogallery {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 1em 0;
     color: #888;
 }
 
-
-input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
-input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
-input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
-input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
-input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
-input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
-input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
-input:nth-of-type(8):checked ~ main figure:nth-of-type(8),
-input:nth-of-type(9):checked ~ main figure:nth-of-type(9){
-    opacity: 1; /* photo opacity 100% when nav checked */
+h2.photogallery {
+    text-align: center;
 }
 
-nav.thumbnails {
-    display: flex;
-    grid-template-columns: repeat(9, 1fr);
+#photo1:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+#photo2:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+#photo3:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+#photo4:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+#photo5:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+#photo6:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+#photo7:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+#photo8:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    opacity: 1;
+}
+
+nav.photogallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
     grid-gap: 0.2em;
 }
 
 
-.gallery input {
-    display: none; /* hide radio button input */
+input {
+    display: none;
 }
 
-
-/* Newsletter page */
-.newsletter h2 {
-    font-size: 1.8em;
-    margin-left: 1rem;
-}
-
-.newsletter {
-    display: block;
-    padding: 0 0 2em 0;
-}
-
-.input-fields {
-    margin-bottom: 4em;
-}
-
-.form {
-    display: block;
-    background-color: rgb(246, 244, 238);
-    padding: 1em .1em; 
-    width: 25em; 
-    margin-bottom: 1.25em; 
-    border-bottom: 1px solid rgb(51,29,12);
+/* newsletter form */
+main.newsletter {
+    margin: auto;
+    padding: 3rem 4rem;
+    border: 3px solid;
 }
 
 form {
-    margin: 0 0 0 1rem;
+    margin: 0.5em 0em;
 }
 
-input::placeholder {
-    color: rgb(160, 145, 134);
-    font-family: komet;
-    font-weight: 400;
+ul.newsletter li {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 30em;
+    padding-bottom: 0.5em;
+}
+
+ul.newsletter li input[type="text"],
+ul.newsletter li input[type="email"],
+ul.newsletter li input[type="tel"]{
+    background-color: #EEEDEB;
+    flex: 2 0 15em;
+    box-sizing: border-box;
+    display: flex;
+    border: 0;
+    border-bottom: 1px solid #0d1321;
+}
+
+ul.newsletter li input[type="checkbox"] {
+    display: flex;
+    margin-right: 1em;
+    position: relative;
+}
+
+ul.newsletter li label {
+    flex: 1 0 2em;
+    font-weight: 600;
+}
+
+h3.newsletter {
+    color: #3F6E87;
+}
+
+button {
+    border: 0px;
+    font-family: "input-serif-condensed", serif;
+    font-weight: 600;
     font-style: normal;
-}
-
-div.selection {
-    line-height: 1.5em;
-}
-
-a.button {
-    background-color: #f58020;
-    display:inline-block;
-    color: rgb(246, 244, 238);
-    font-size:1em;
-    font-family: quasimoda;
-    font-weight: 700;
-    font-style: normal;
-    padding: 1em 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    text-decoration:none;
+    font-size: 1.2em;
     text-transform: uppercase;
+    color: #EEEDEB;
+    background-color: #3F6E87;
+    padding: 0.5em 1em;
 }
 
-a.button:hover {
-    background-color: #87bee8;
+button:hover {
+    background-color: #314956;
 }
 
-@media screen and (min-width: 40em) {
-    nav.topbar ul li {
-        display: inline;
-        margin-right: 0.75rem;
+/* dark mode */
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: #314956;
+        color: #EEEDEB;
     }
-
-    h2, p, figcaption, h4 {
-        margin: 0;
+    
+    h1 {  
+    background-image: url("reverb_logo_white.png");  
+    background-repeat: no-repeat;  
+    background-size: contain;  
     }
-
-    figcaption {
-        color: #555;
-        font-style: italic;
-        margin: .2rem 0 1rem;
-    }
-
-    header {
-        padding: 1rem 0 0 0;
-    }
-
-    p {
-        padding-bottom: .8em;
-    }
-
-    aside p {
-        margin: 0 0 0.7rem 0;
-    }
-
-    main p {
-        margin: 0 0 1rem 0;
-    }
+    
+    h1 img {  
+    opacity: 0;  
+    }  
     
     a {
-        padding-left: 0;
-    }
-
-    h3 {
-        margin: 0;
-    }
-
-}
-
-@media screen and (min-width: 60em) {
-    div.home-container {
-        max-width: 70em;
-        padding: 0 1em;
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-gap: 1em;
-    }
-
-    /* Newsletter */
-    div.newsletter-container {
-        max-width: 70em;
-        margin: 0 auto 3em;
-        display: block;
-    }
-
-
-    /* Other stuff */
-    header, footer {
-        grid-column: 1/3;
-    }
-
-    div.container {
-        max-width: 60em;
-        padding: 0 1em;
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-gap: 1em;
-    }
-
-    footer {
-        border-top: 2px solid #87bee8;
-    }
-
-    footer p {
-        margin-left: 0;
-    }
-
-    main {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1em;
-    }
-
-    div.home-container aside {
-        padding: 0 1.2em 1.2em;
-        height: fit-content;
-    }
-
-    section.mainstory {
-        grid-column: 2/4;
-        grid-row: 1/3;
-        display: flex;
-    }
-    section.mainstory a {
-        flex: 1 0 12em;
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.mainstory a figure {
-        flex: 1 0 12em;
-        display: flex;
-    }
-
-    section.mainstory a figure img {
-        object-fit: cover;
-    }
-
-    section.mainstory a h2 {
-        flex: 0 0 1em;
-    }
-
-    section.mainstory a p {
-        flex: 0 0 4em;
-    }
-
-    section.secondary {
-        display: flex;
-    }
-    section.secondary a {
-        flex: 1 0 12em;
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.secondary a figure {
-        flex: 1 0 12em;
-    }
-
-    section.secondary a figure img {
-        object-fit: cover;
-    }
-
-    section.secondary a h2 {
-        flex: 0 0 1em;
-    }
-
-    section.secondary a p {
-        flex: 0 0 4em;
-    }
-
-    .gallery {
-        margin: 0;
+        color: #EEEDEB;
     }
     
-}
+    section {
+        border-color: #EEEDEB;
+    }
+    
+    h3 {
+        color: #EEEDEB;
+    }
 
+    h3:hover {
+        color: #FF3406;
+    }
+    
+    h2 {
+        color: #EEEDEB;
+    }
+    
+    h3.newsletter {
+        color: #FF3406;
+    }
+    
+    ul.newsletter li input[type="text"],
+    ul.newsletter li input[type="email"],
+    ul.newsletter li input[type="tel"]{
+        background-color: #314956;
+        border-bottom: 1px solid #EEEDEB;
+        color: #EEEDEB;
+    }
+    
+    button {
+    color: #3F6E87;
+    background-color: #EEEDEB;
+    }
+
+    button:hover {
+        background-color: #FF3406;
+        color: #EEEDEB;
+    }
+}
