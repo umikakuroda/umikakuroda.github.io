@@ -1,0 +1,73 @@
+<!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- You need this to proper scale in actual mobile devices.-->
+            <link rel = "stylesheet" href = "style.css">
+            <link rel="stylesheet" href="https://use.typekit.net/fjr2lru.css">
+            <title>SAT. Sit and Thrive</title> 
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+            
+        </head>	
+
+        <body>
+            <div class="newsletter-container">
+                
+                <!-- Same header as the home page. -->
+                <header>
+                    <h1>
+                        <a href = "index.html"><img src = "logo_sat.svg"></a>
+                    </h1>
+
+                <!-- For the nav, you can use the pound sign (#) for the value of the href attribute. -->                
+                    <nav class = "topbar">
+                        <ul>
+                            <li><a href="#">Ergonomics</a></li>
+                            <li><a href="#">Historical Perspectives</a></li>
+                            <li><a href="#">Lifestyle & Spaces</a></li>
+                            <li><a href="#">Industry News</a></li>
+                            <li><a href="newsletter.html">Subscribe</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                
+                <main class="newsletter">
+                    <img src="chairs-banner.jpg" img class="newsletter" img alt="4 floating chairs tethered by a rope.">
+                    <h2>Subscribe to our newsletter!</h2>
+                    <form>
+                        <section class = "input-fields">
+                            <input type="text" name="name" class="form" placeholder="Name (required)" required />
+                            <input type="email" name="email" class="form" placeholder="Email (required)" required />
+                        </section>
+        
+                        <p>Send me...</p>
+                        <div class="selection">
+                            <input type="checkbox" id="ergonomic" name="ergonomic" checked>
+                            <label for="ergonomic">Ergonomic Chairs</label>
+                        </div>
+                        <div class="selection">
+                            <input type="checkbox" id="outdoor" name="outdoor" checked>
+                            <label for="outdoor">Outdoor and Patio Chairs</label>
+                        </div>
+                        <div class="selection">
+                            <input type="checkbox" id="avant" name="avant" checked>
+                            <label for="avant">Avant-Garde and Designer Chairs</label>
+                        </div>
+                        <a href="#" class="button">Subscribe</a>
+                    </form>
+                </main>
+
+               <!-- Same footer as home page. -->
+               <footer>
+                    <p>All rights reserved.</p>
+               </footer>
+
+            </div>
+        </body>
+    </html>
+
+
