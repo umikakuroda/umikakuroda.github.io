@@ -155,6 +155,9 @@ aside.story p {
 
 aside.story h2 {
     color: #87bee8;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-top: .5em;
 }
 
 aside.story h2:hover {
